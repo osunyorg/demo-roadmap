@@ -7,13 +7,18 @@ contents:
   - kind: block
     template: call_to_action
     title: >-
-      
+      Contribuer
     slug: >-
-      
+      contribuer
     ranks:
       base: 2
+      self: 2
     top:
       active: true
+      title: 
+        value: >-
+          Contribuer
+        heading: 2
       description: >-
         <p>Vous souhaitez financer un projet, proposer une fonctionnalité ou contribuer au code ? Envoyez-nous un courriel via le lien suivant.</p>
     data:
