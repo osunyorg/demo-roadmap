@@ -1,7 +1,41 @@
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 6
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: call_to_action
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+    top:
+      active: true
+      description: >-
+        <p>Vous souhaitez financer un projet, proposer une fonctionnalité ou contribuer au code ? Envoyez-nous un courriel via le lien suivant.</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Vous souhaitez financer un projet, proposer une fonctionnalité ou contribuer au code ? Envoyez-nous un courriel via le lien suivant.</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            Contacter Osuny
+
+          url: >-
+            contact@osuny.org
+
+          target_blank: true
+
+
 
