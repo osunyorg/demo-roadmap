@@ -1,6 +1,6 @@
 ---
 title: >-
-  Amélioration des fils d'ariane
+  Amélioration des fils d'ariane.
 
 
 
@@ -15,7 +15,7 @@ meta:
     slug: "amelioration-des-fils-dariane"
   dates:
     created_at: 2026-03-12T10:49:10+01:00
-    updated_at: 2026-03-12T11:23:05+01:00
+    updated_at: 2026-04-09T15:48:06+02:00
     published_at: 2026-03-12T10:49:10+01:00
 search:
   id: "5b54f6b3-a59d-49a1-8507-715b3ba8c14e"
@@ -24,7 +24,7 @@ search:
   kind: "Communication::Website::Portfolio::Project::Localization"
   lang: "fr"
   title: >-
-    Amélioration des fils d'ariane
+    Amélioration des fils d'ariane.
 
   body: >-
     <p>Le problème  <br>Le problème se manifeste par le fil d'ariane, mais c'est un problème plus profond lié aux catégories.  Exemple 1 Ecocean veut une page  équipe  éditorialisée (Accueil / À propos / Équipe). Si on utilise la page native des personnes, on ne peut pas organiser les blocs comme on veut, il y a toujours la liste de personnes natives à la fin. Si on crée une nouvelle page, les personnes se retrouvent avec un fil d'ariane qui semble illogique (Accueil / Personnes / Anaëlle Grosbois). Le fil d'ariane attendu est Accueil / À propos / Équipe / Anaëlle Grosbois.  Exemple 2 Sur le site Prototype, on veut lister les exposants. En faisant  une catégorie , puis  une page  avec un bloc d'organisations de la catégorie, ça fonctionne, mais les exposants ont un fil d'ariane illogique aussi (Accueil / Organisations / Atelier Monier).  Le fil d'ariane idéal serait Accueil / Exposants Prototype / Atelier Monier.</p>  <p> La solution  <br>Désactivation du fonctionnement natif En offrant une possibilité de désactiver le fonctionnement natif d'une page (de personnes par exemple), Ecocean pourrait utiliser la page Personnes en la glissant dans À propos. Cela résout parfaitement le fil d'ariane. On peut imaginer 2 façons de le faire : soit avec une case à cocher explicite (désactiver la liste automatique des personnes), soit en considérant que l'ajout d'un bloc Personnes coupe le fonctionnement natif automatiquement. Charge de travail : 1 journée (800 €HT) Objets non canoniques On peut générer, pour chaque catégorie attribuée à un objet, un fichier Git qui va permettre de générer une page non canonique. Une organisation qui serait à la fois partenaire et exposants générerait donc 3 pages :   <br> Accueil / Organisations / Daumet (canonique)  <br> Accueil / Partenaires / Daumet  <br> Accueil / Exposants / Daumet  <br> ou   <br> Accueil / Organisations / Partenaires / Daumet  <br> Accueil / Organisations / Exposants / Daumet  <br> Ensuite, quand on appelle un objet dans un bloc à partir de la catégorie, on pointe vers la bonne page. C'est assez difficile à coder correctement. Charge de travail : 8 journées (6400 €HT) Catégorie principale On pourrait attribuer, dans un site, une catégorie principale à chaque type d'objet, qui deviendrait le lien privilégié. Une organisation qui serait à la fois partenaire et exposants, en catégorie principale "partenaire" génère donc une seule page  Accueil / Organisations / Partenaires / Daumet L'avantage c'est que le breadcrumb tient compte de la catégorie principale. L'inconvénient est que si on affiche la liste des exposants et qu'on clique sur l'organisation on se retrouve dans la partie Partenaires, ce qui est troublant. Si on clique sur l'organisation sans contexte on irait quand même sur l'organisation dans le contexte Partenaires. Cette solution est une mauvaise idée parce qu'elle entraine des comportements inattendus.</p>
@@ -37,7 +37,7 @@ breadcrumbs:
       Fonctionnalités
     path: "/fonctionnalites/"
   - title: >-
-      Amélioration des fils d'ariane
+      Amélioration des fils d'ariane.
 
 design:
   full_width: true
