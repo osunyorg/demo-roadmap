@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 7
+  seconds: 8
   text: >-
     moins d'une minute
 contents:
@@ -20,11 +20,11 @@ contents:
           Contribuer
         heading: 2
       description: >-
-        <p>Vous souhaitez financer un projet, proposer une fonctionnalité ou contribuer au code ? Envoyez-nous un courriel via le lien suivant.</p>
+        <p>Vous souhaitez contribuer ? Envoyez-nous un courriel via le lien suivant, ou rejoignez la communauté slack et discutons-en.</p>
     data:
       layout: accent_background
       text: >-
-        <p>Vous souhaitez financer un projet, proposer une fonctionnalité ou contribuer au code ? Envoyez-nous un courriel via le lien suivant.</p>
+        <p>Vous souhaitez contribuer ? Envoyez-nous un courriel via le lien suivant, ou rejoignez la communauté slack et discutons-en.</p>
 
       buttons:
         - 
@@ -32,6 +32,12 @@ contents:
             Contacter Osuny
           url: >-
             mailto:contact@osuny.org
+          target_blank: false
+        - 
+          title: >-
+            Discutons sur slack
+          url: >-
+            https://osunysupport.slack.com/archives/C03CYADMUJX
           target_blank: false
 
 
