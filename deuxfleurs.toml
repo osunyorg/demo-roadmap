@@ -15,10 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/fonctionnalites/2025-ajout-de-feature-lieu-sur-agenda/"
+from = "/fonctionnalites/2025-ajout-de-feature-lieu-sur-agenda/index.html"
 to = "/fonctionnalites/2025-gestion-des-lieux-des-evenements-et-expositions/"
 
 [[redirects]]
-from = "/projets/"
+from = "/projets/index.html"
 to = "/fonctionnalites/"
 
