@@ -19,6 +19,10 @@ from = "/fonctionnalites/2025-ajout-de-feature-lieu-sur-agenda/index.html"
 to = "/fonctionnalites/2025-gestion-des-lieux-des-evenements-et-expositions/"
 
 [[redirects]]
+from = "/fonctionnalites/2026-amelioration-des-fils-dariane/index.html"
+to = "/fonctionnalites/2027-amelioration-des-fils-dariane/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/fonctionnalites/"
 
