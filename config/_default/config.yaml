@@ -9,3 +9,6 @@ params:
       options:
         summary: false
         categories: false
+    single:
+      meta:
+        position: hero
