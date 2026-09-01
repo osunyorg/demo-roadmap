@@ -19,6 +19,10 @@ from = "/fonctionnalites/2026-web-to-print/index.html"
 to = "/fonctionnalites/2027-web-to-print/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/devis-001935-noesya-rennes-metropolepdf/"
+
+[[redirects]]
 from = "/fonctionnalites/2025-ajout-de-feature-lieu-sur-agenda/index.html"
 to = "/fonctionnalites/2025-gestion-des-lieux-des-evenements-et-expositions/"
 
